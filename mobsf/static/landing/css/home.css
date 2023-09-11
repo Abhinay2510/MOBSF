@@ -27,12 +27,12 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: linear-gradient(to left, #00efe4, #2d47ff);
+  background: #0761A6;
+ /* background: linear-gradient(to left, #00efe4, #2d47ff); */
 }
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -216,7 +216,7 @@ div#textnode {
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color: #312f2f;
+  background-color: white !important;
   position: fixed;
   top: 0;
   width: 100%;
@@ -226,31 +226,31 @@ div#textnode {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #a7a6a6;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
+/* .topnav a:hover {
   color: #fff;
-}
+} */
+
 
 /* Centered section inside the top navigation */
 .topnav-centered a {
   float: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 999;
+    top: 10%;
+    left: 40%;
+ /*transform: translate(-50%, -50%);
+  z-index: 999; */
 }
-
+/*
 .topnav-centered a:hover {
   background-color: #312f2f;
-}
+} */
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {

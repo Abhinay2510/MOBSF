@@ -309,7 +309,7 @@
               </p>
              </a>
             </li>
-            {% if dynamic_analysis_done %}
+        <!--    {% if dynamic_analysis_done %}
             <li class="nav-item">
               <a href="../dynamic_report/{{ md5 }}" class="nav-link">
               <i class="nav-icon fas fa-file-alt"></i>
@@ -317,7 +317,7 @@
                 Dynamic Analysis Report
               </p>
              </a>
-            </li>
+            </li>  -->
             {% else %}
             <li class="nav-item">
               <a onclick="dynamic_loader()" href="../android_dynamic/{{md5}}" class="nav-link">
@@ -385,7 +385,7 @@
                     {% endif %}
                   {% endif %}
                 </p>
-                  <p> <a href="../appsec_dashboard/{{ md5 }}/" class="btn btn-outline-primary btn-sm" role="button"><i class="fas fa-user-shield"></i> MobSF Scorecard</a></p>
+                  <p> <a href="../appsec_dashboard/{{ md5 }}/" class="btn btn-outline-primary btn-sm" role="button"><i class="fas fa-user-shield"></i> Scorecard</a></p>
 
                 </div>
                 <div class="col-6">
@@ -618,7 +618,7 @@
 <section class="content">
       <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4">
+          <!--  <div class="col-lg-4">
             <div class="card">
               <div class="card-body">
                 <p>
@@ -629,9 +629,9 @@
                   <a onclick="dynamic_loader()" href="../android_dynamic/{{md5}}" class="btn btn-success" role="button"><i class="fa fa-play-circle"></i> Start Dynamic Analysis</a>
                 </p>
               </div>
-            </div><!-- /.card -->
-            </div>
-            <div class="col-lg-8">
+            </div> 
+            </div>-->
+            <div class="col-lg-12">
               <div class="card">
                 <div class="card-body">
                     <p>
